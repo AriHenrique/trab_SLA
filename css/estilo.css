@@ -4,7 +4,7 @@
 }
 
 :root{
-    --bg-gray: #d5d7da;
+    --bg-gray: #fff;
     --black: #000000;
     --blue: #00f;
     --link: #0078d4;
@@ -37,13 +37,14 @@ body{
     margin-bottom: 50px;
 }
 #catalogo{
+    border: 1px solid var(--black);
     margin-top: 20px;
     width: 60%;
     text-align: center;
 }
 
 .logo{
-    width: 10%;
+    width: 12%;
 }
 
 #contrato{
@@ -139,4 +140,12 @@ body{
 
 a:hover{
     color: var(--button);
+}
+
+.pagina{
+    text-align: center;
+}
+
+#tabela{
+    border: 1px solid var(--black);
 }
