@@ -7,6 +7,8 @@
     --bg-gray: #d5d7da;
     --black: #000000;
     --blue: #00f;
+    --link: #0078d4;
+    --button: #50e6ff;
 }
 
 head{
@@ -128,4 +130,13 @@ body{
     padding-left: 30px;
     margin-top: 30px;
     margin-bottom: 10px;
+}
+
+* a{
+    text-decoration: none;
+    color: var(--link);
+}
+
+a:hover{
+    color: var(--button);
 }
